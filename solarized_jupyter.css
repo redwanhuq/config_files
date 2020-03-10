@@ -1,0 +1,197 @@
+div.CodeMirror, div.output_area pre, div.output_wrapper, div.prompt {
+  font-family: "Input", monospace;
+  font-size: 14px;
+  line-height:140%;
+}
+
+/* Hide header and toolbar */
+div#header-container { display: none; }
+div#maintoolbar { display: none !important; }
+
+/* INTRO PAGE */
+.toolbar_info, .list_container { color: #000000; }
+
+/* NOTEBOOK */
+
+/* Nav bar */
+body.notebook_app > #header { display: block !important; }
+.notebook_app > #header, .edit_app > #header { 
+  background-color: #002b36;
+  -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.edit_app #menubar .navbar { margin-bottom: 0; }
+body > #header .header-bar { background-color: #002b36; }
+
+.navbar-default {
+  background-color: #002b36;
+  border-color: transparent;
+  font-family: "Ubuntu", monospace;
+  border-width: 0px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #eee8d5;
+  background-color: #2aa198;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #eee8d5;
+  background-color: #2aa198;
+
+}
+
+/* Dropdown menus */
+.dropdown-menu {
+  background-color: #073642;
+  border-color: #586e75;
+  border-width: 1px;
+  -webkit-box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.3);
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown-menu > li > a, .dropdown-submenu > a:after, .dropdown-menu > li > a:visited:after {
+  color: #93a1a1;
+}
+
+.dropdown-menu .divider { background-color: #586e75; }
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  color: #839496;
+  background-color: #002b36;
+}
+
+.dropdown-menu > li > a:hover:after, .dropdown-menu > li > a:focus:after, 
+.dropdown-menu > li > a:active:after { color: #93a1a1; }
+
+/* Notebook contents */
+div#notebook { background-color: #073642; border-top: none; }
+div#notebook-container {
+  background-color: #073642;
+  border: none; 
+  box-shadow: none
+}
+
+div.input { width: 108ex; }
+div.input_prompt { color: #93a1a1; }
+div.output_prompt { color: #66BB6A; }
+div.input_area { border-radius: 0px; border: 1.5px solid #586e75;
+}
+
+div.output_area pre {
+  font-weight: normal; 
+  color: #93a1a1;
+  background-color: #073642;
+}
+
+div.output_subarea {
+  font-weight: normal; 
+  color: #93a1a1; 
+  background-color: #073642;}
+
+.rendered_html table, .rendered_html th, .rendered_html tr, .rendered_html td {
+  border: 1px  #93a1a1 solid;
+  color: #93a1a1;
+  background-color: #073642;
+  font-size: 14px;
+}
+
+.rendered_html code {
+  font-family: "Input", monospace; 
+  font-size: 14px; 
+  color: #839496; 
+  background-color: #002b36;
+}
+
+#notification_trusted {
+  border-color: #268bd2;
+  background-color: #268bd2;
+  color: #eee8d5;
+}
+
+#notification_notebook {
+  border-color: #b58900;
+  background-color: #b58900;
+  color: #fdf6e3;
+}
+
+#notification_kernel {
+  border-color: #cb4b16;
+  background-color: #cb4b16;
+  color: #fdf6e3;
+}
+
+/* Code blocks using ``` */
+.rendered_html pre {
+  border: none;
+  background-color: #002b36;
+  line-height:110%;
+}
+
+.container { width: 114ex !important; }
+div.output_html { font-family: "Roboto", sans-serif; }
+table.dataframe tr { border: 1px #002b36; }
+div.cell.selected { border-radius: 0px; border: 1.5px solid #42A5F5; }
+div.cell.edit_mode { border-radius: 0px; border: 1.5px solid #6c71c4; }
+div.text_cell_render, div.output_html { color: #93a1a1; }
+div.text_cell { width: 110ex; }
+div.text_cell_render {
+  font-family: "Lora", serif !important;
+  font-size: 18px;
+  line-height: 1.42857143;
+}
+
+span.ansiblack {color: #073642;}
+span.ansiblue {color: #2aa198;}
+span.ansigray {color: #839496;}
+span.ansigreen {color: #859900;}
+span.ansipurple {color: #6c71c4;}
+span.ansired {color: #dc322f;}
+span.ansiyellow {color: #b58900;}
+
+div.output_stderr {background-color: #b58900;}
+div.output_stderr pre {color: #eee8d5;}
+
+.cm-s-ipython.CodeMirror {background: #002b36; color: #839496;}
+.cm-s-ipython div.CodeMirror-selected {background: #181818 !important;}
+.cm-s-ipython .CodeMirror-gutters {
+	background: #073642; 
+	border-right: 0px;
+}
+
+.cm-s-ipython .CodeMirror-linenumber {color: #657b83;}
+.cm-s-ipython .CodeMirror-cursor {
+	border-left: 2px solid #657b83 !important;
+}
+
+.cm-s-ipython span.cm-comment {color: #586e75;}
+.cm-s-ipython span.cm-atom {color: #d33682;}
+.cm-s-ipython span.cm-number {color: #d33682;}
+.cm-s-ipython span.cm-property, span.cm-s-ipython, span.cm-attribute {
+	color: #268bd2;
+}
+
+.cm-s-ipython span.cm-keyword {color: #859900; font-weight: normal;}
+.cm-s-ipython span.cm-string {color: #2aa198;}
+.cm-s-ipython span.cm-operator {color: #859900;}
+.cm-s-ipython span.cm-builtin {color: #b58900;}
+.cm-s-ipython span.cm-variable {color: #839496;}
+.cm-s-ipython span.cm-variable-2 {color: #6c71c4; font-style: italic;}
+.cm-s-ipython span.cm-def {color: #268bd2; font-weight: bold;}
+.cm-s-ipython span.cm-error {color: #dc322f; font-weight: bold;}
+.cm-s-ipython span.cm-bracket {color: #268bd2 !important; }
+.cm-s-ipython span.cm-tag {color: #dc322f;}
+.cm-s-ipython span.cm-link {color: #d33682;}
+.cm-s-ipython span.cm-meta {color: #cb4b16; font-style: italic;}
+.cm-s-ipython span.cm-invalidchar { color: #dc322f;}
+.cm-s-ipython .CodeMirror-matchingbracket {
+	background: #839496; 
+	color: #002b36 !important;
+}
+
+.cm-s-ipython .CodeMirror-nonmatchingbracket {
+	background: #dc322f; 
+	font-weight: normal !important; 
+	color: #93a1a1  !important;
+}
