@@ -24,32 +24,33 @@
     {
         "background": "var(base03)",
         "foreground": "var(base0)",
-        "line_highlight": "var(base02)",
-        "gutter": "var(base02)",
-        "minimap_border": "var(base02)",
-
         "caret": "var(base00)",
         "invisibles": "var(base01)",
-        "misspelling": "var(red)",
+        "line_highlight": "var(base02)",
+
+        "gutter": "var(base02)",
+        "gutter_foreground": "var(base01)",
+
+        "minimap_border": "var(base02)",
+        "misspelling": "var(base0)",
+        "accent": "var(blue)",
+        "fold_marker": "var(yellow)",
 
         "highlight": "var(base1)",
         "find_highlight": "var(base01)",
         "find_highlight_foreground": "var(base2)",
 
-        "accent": "var(blue)",
-        "fold_marker": "var(yellow)",
-
-        "guide": "color(var(base01) blend(var(base03) 50%))",
+        "guide": "color(var(base01) blend(var(base03) 45%))",
         "active_guide": "var(base01)",
         "stack_guide": "var(base02)",
 
-        "selection": "color(var(base01) blend(var(base03) 25%))",
+        "selection": "var(base02)",
         "selection_border": "color(var(base01) blend(var(base03) 50%))",
-        "inactive_selection": "color(var(base01) blend(var(base03) 25%))",
+        "inactive_selection": "color(var(base01) blend(var(base03) 20%))",
 
-        "brackets_options": "underline",
-        "brackets_foreground": "var(base3)",
-        "bracket_contents_options": "stippled_underline",
+        "brackets_options": "bold stippled_underline",
+        "brackets_foreground": "var(base2)",
+        "bracket_contents_options": "underline",
         "bracket_contents_foreground": "var(base3)",
         "tags_options": "stippled_underline",
         "tags_foreground": "var(green)",
@@ -57,6 +58,7 @@
         "shadow": "color(var(base03) blend(#000 75%))",
         "shadow_width": "4",
 
+        "line_diff_width": "4",
         "line_diff_added" : "var(green)",
         "line_diff_modified" : "var(yellow)",
         "line_diff_deleted" : "var(red)"
@@ -106,8 +108,9 @@
         {
             "name": "Variable Language",
             "scope": "variable.language",
-            "foreground": "var(base0)",
-            "font_style": "italic"
+            "font_style": "italic",
+            "foreground": "var(base0)"
+
         },
         {
             "name": "Keyword",
@@ -120,7 +123,7 @@
             "foreground": "var(orange)"
         },
         {
-            "name": "Assignment, Comparison Operators",
+            "name": "Assignment, Comparision Operators",
             "scope": "keyword.operator.comparison, keyword.operator.assignment",
             "foreground": "var(green)",
             "font_style": "bold"
@@ -178,7 +181,7 @@
         {
             "name": "Built-in constant",
             "scope": "constant, constant.language, meta.preprocessor",
-            "foreground": "var(violet)"
+            "foreground": "var(violet)",
         },
         {
             "scope": "entity.name.section",
@@ -232,7 +235,9 @@
         {
             "name": "Invalid",
             "scope": "invalid",
-            "background": "color(var(red) blend(var(base03) 30%))"
+            "background": "var(red)",
+            "foreground": "var(base03)",
+            "font_style": "bold"            
         },
         {
             "name": "Quoted String",
