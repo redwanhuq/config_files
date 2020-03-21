@@ -73,7 +73,7 @@ div#notebook-container {
   box-shadow: none
 }
 
-div.input { width: 108ex; }
+div.input { width: 117ex; }
 div.input_prompt { color: #93a1a1; }
 div.output_prompt { color: #66BB6A; }
 div.input_area { border-radius: 0px; border: 1.5px solid #586e75;
@@ -129,13 +129,13 @@ div.output_subarea {
   line-height:110%;
 }
 
-.container { width: 114ex !important; }
+.container { width: 123ex !important; }
 div.output_html { font-family: "Roboto", sans-serif; }
 table.dataframe tr { border: 1px #002b36; }
 div.cell.selected { border-radius: 0px; border: 1.5px solid #42A5F5; }
 div.cell.edit_mode { border-radius: 0px; border: 1.5px solid #6c71c4; }
 div.text_cell_render, div.output_html { color: #93a1a1; }
-div.text_cell { width: 110ex; }
+div.text_cell { width: 119ex; }
 div.text_cell_render {
   font-family: "Lora", serif !important;
   font-size: 18px;
