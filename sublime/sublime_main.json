@@ -1,0 +1,23 @@
+{
+    "always_show_minimap_viewport": true,
+    "color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).sublime-color-scheme",
+    "detect_indentation": false,
+    "fade_fold_buttons": false,
+    "font_face": "Input",
+    "font_size": 10.5,
+    "highlight_modified_tabs": true,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "line_padding_bottom": 3,
+    "margin": 4,
+    "mini_diff": "auto",
+    "rulers":
+    [
+        88
+    ],
+    "spell_check": true,
+    "theme": "Adaptive.sublime-theme",
+    "wrap_width": 88
+}

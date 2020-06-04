@@ -1,0 +1,20 @@
+[user]
+    name = Red Huq
+    email = someone@gmail.com
+[alias]
+    st = status
+    cm = commit -m
+    br = branch
+    rt = remote -v
+    co = checkout
+    df = diff
+    lg = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) %C(yellow)(%ar)%C(reset)%C(auto)%d%C(reset) %C(white)%s%C(reset) %C(bold green)[%an]%C(reset) %n'
+    fuckit = reset --hard
+    ft = fetch -v
+    ftu = fetch -v upstream
+[color "status"]
+    added = green bold
+    changed = yellow
+    untracked = red bold
+[push]
+    default = simple

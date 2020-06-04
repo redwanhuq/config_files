@@ -1,0 +1,7 @@
+alias jn='jupyter notebook'
+alias matrix='cmatrix -a -b -s'
+alias sd='conda deactivate'
+alias sa='conda activate $1'
+alias af1='airflow webserver -p 8080'
+alias af2='airflow scheduler'
+alias subl='"/mnt/c/Program Files/Sublime Text 3/subl.exe" $1'
