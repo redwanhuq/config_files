@@ -1,11 +1,11 @@
 // SublimeLinter Settings - User
 {
 	"paths": {
-        "windows": ["C:/Users/hure7003/AppData/Local/Continuum/miniconda3/envs/lint/Scripts/"],
+        "linux": ["/home/red/miniconda3/envs/linters/bin/"],
 	},
 	"linters": {
 		"pylint": {
-			"--rcfile=": "C:/Users/hure7003/Documents/repos/project-restore-pipeline/.pylintrc"
+			"--rcfile=": "home/red/.pylintrc"
 		},
 		"mypy": {
             "args": [

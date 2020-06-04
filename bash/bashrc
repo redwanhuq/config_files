@@ -141,8 +141,8 @@ fi
 # Set Airflow environment variable
 export AIRFLOW_HOME=/mnt/c/Users/hure7003/Documents/airflow
 
-# Start in home directory
+# Start the home directory
 cd ~
 
-# Set directory colors in ls command
+# Configure directory colors in ls command
 LS_COLORS=$LS_COLORS:'ow=0;30;42:' ; export LS_COLORS
