@@ -1,13 +1,14 @@
 // SublimeLinter Settings - User
 {
-	"paths": {
-        "linux": ["/home/red/miniconda3/envs/linters/bin/"],
-	},
-	"linters": {
-		"pylint": {
-			"--rcfile=": "home/red/.pylintrc"
-		},
-		"mypy": {
+    "paths": {
+        "linux": ["~/miniconda3/envs/linters/bin/"],
+        "windows": ["f:/miniconda3/envs/linters/Scripts"],
+    },
+    "linters": {
+        "pylint": {
+            "rcfile": "~/.pylintrc"
+        },
+        "mypy": {
             "args": [
                 "--ignore-missing-imports",
                 "--disallow-untyped-defs",
@@ -15,5 +16,5 @@
                 "--disallow-incomplete-defs",
             ]
         }
-	}
+    }
 }

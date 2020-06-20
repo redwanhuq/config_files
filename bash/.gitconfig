@@ -6,6 +6,7 @@
     cm = commit -m
     br = branch
     rt = remote -v
+    pr = prune remote origin
     co = checkout
     df = diff
     lg = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) %C(yellow)(%ar)%C(reset)%C(auto)%d%C(reset) %C(white)%s%C(reset) %C(bold green)[%an]%C(reset) %n'

@@ -40,11 +40,6 @@ case "$TERM" in
     xterm-color|*-256color) color_prompt=yes;;
 esac
 
-# Function to add git branch to prompt
-parse_git_branch() {
-    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ @\1/'
-}
-
 # uncomment for a colored prompt, if the terminal has the capability; turned
 # off by default to not distract the user: the focus in a terminal window
 # should be on the output of commands, not on the prompt
@@ -61,6 +56,11 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
+# Function to add git branch to prompt
+parse_git_branch() {
+    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ @\1/'
+}
+
 # Function to add conda environment to PS1
 env_info() {
     if [ "$CONDA_DEFAULT_ENV" = "" ]; then
@@ -76,13 +76,6 @@ if [ "$color_prompt" = yes ]; then
 else
     PS1='${debian_chroot:+($debian_chroot)}\u \w$(parse_git_branch)'$'\n$ '
 fi
-
-# Original PS1 prompt
-# if [ "$color_prompt" = yes ]; then
-#     PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
-# else
-#     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
-# fi
 unset color_prompt force_color_prompt
 
 # If this is an xterm set the title to user@host:dir
@@ -138,10 +131,12 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# OPTIONAL CONFIGURATIONS BELOW
+
 # Set Airflow environment variable
 export AIRFLOW_HOME=/mnt/c/Users/hure7003/Documents/airflow
 
-# Start the home directory
+# Start with home directory
 cd ~
 
 # Configure directory colors in ls command

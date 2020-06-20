@@ -1,3 +1,4 @@
 {
-	"black_command": "/home/red/miniconda3/envs/linters/bin/black",
+    "black_command": "~/miniconda3/envs/linters/bin/black",
+    // "black_command": "f:/miniconda3/envs/linters/Scripts/black",
 }
