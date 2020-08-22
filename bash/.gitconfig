@@ -3,9 +3,9 @@
     email = someone@gmail.com
 [alias]
     st = status
-    cm = commit -m
+    ad = add -v
+    cm = commit -q
     br = branch
-    rt = remote -v
     pr = prune remote origin
     co = checkout
     df = diff
@@ -17,5 +17,3 @@
     added = green bold
     changed = yellow
     untracked = red bold
-[push]
-    default = simple
