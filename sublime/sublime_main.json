@@ -19,5 +19,6 @@
     ],
     "spell_check": true,
     "theme": "Adaptive.sublime-theme",
+    "translate_tabs_to_spaces": true,
     "wrap_width": 88
 }
