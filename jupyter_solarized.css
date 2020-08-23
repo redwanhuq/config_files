@@ -156,20 +156,20 @@ div.output_stderr pre {color: #eee8d5;}
 .cm-s-ipython.CodeMirror {background: #002b36; color: #839496;}
 .cm-s-ipython div.CodeMirror-selected {background: #181818 !important;}
 .cm-s-ipython .CodeMirror-gutters {
-	background: #073642; 
-	border-right: 0px;
+    background: #073642; 
+    border-right: 0px;
 }
 
 .cm-s-ipython .CodeMirror-linenumber {color: #657b83;}
 .cm-s-ipython .CodeMirror-cursor {
-	border-left: 2px solid #657b83 !important;
+    border-left: 2px solid #657b83 !important;
 }
 
 .cm-s-ipython span.cm-comment {color: #586e75;}
 .cm-s-ipython span.cm-atom {color: #d33682;}
 .cm-s-ipython span.cm-number {color: #d33682;}
 .cm-s-ipython span.cm-property, span.cm-s-ipython, span.cm-attribute {
-	color: #268bd2;
+    color: #268bd2;
 }
 
 .cm-s-ipython span.cm-keyword {color: #859900; font-weight: normal;}
@@ -186,12 +186,12 @@ div.output_stderr pre {color: #eee8d5;}
 .cm-s-ipython span.cm-meta {color: #cb4b16; font-style: italic;}
 .cm-s-ipython span.cm-invalidchar { color: #dc322f;}
 .cm-s-ipython .CodeMirror-matchingbracket {
-	background: #839496; 
-	color: #002b36 !important;
+    background: #839496; 
+    color: #002b36 !important;
 }
 
 .cm-s-ipython .CodeMirror-nonmatchingbracket {
-	background: #dc322f; 
-	font-weight: normal !important; 
-	color: #93a1a1  !important;
+    background: #dc322f; 
+    font-weight: normal !important; 
+    color: #93a1a1  !important;
 }
