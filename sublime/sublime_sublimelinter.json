@@ -2,7 +2,7 @@
 {
     "paths": {
         "linux": ["~/miniconda3/envs/linters/bin/"],
-        "windows": ["f:/miniconda3/envs/linters/Scripts"],
+        "windows": ["f:/miniconda3_windows/envs/linters/Scripts"],
     },
     "linters": {
         "pylint": {
