@@ -69,7 +69,7 @@
                 "name": "Ubuntu",
                 "source": "Windows.Terminal.Wsl",
                 "suppressApplicationTitle": true,
-                "tabTitle": "Ubuntu"
+                "tabTitle": "linux"
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -118,14 +118,14 @@
             "purple": "#D33682",
             "cyan": "#2AA198",
             "white": "#839496",
-            "brightBlack": "#073642",
+            "brightBlack": "#eee8d5",
             "brightRed": "#cb4b16",
             "brightGreen": "#859900",
             "brightYellow": "#B58900",
             "brightBlue": "#268BD2",
             "brightPurple": "#6c71c4",
             "brightCyan": "#2AA198",
-            "brightWhite": "#FDF6E3"
+            "brightWhite": "#eee8d5"
         }
     ],
 
